@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savin - Your Personal AI Assistant</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <style>
+    :root {
+      --primary: #8A2BE2;
+      --secondary: #FF69B4;
+      --dark: #1E1E2E;
+      --light: #F5F5F7;
+      --success: #4CAF50;
+      --highlight: #00BFFF;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+      background-color: var(--dark);
+      color: var(--light);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .header {
+      padding: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      font-weight: bold;
+      font-size: 18px;
+    }
+    
+    .settings-btn {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.3s;
+    }
+    
+    .settings-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    
+    .container {
+      flex: 1;
+      display: flex;
+      position: relative;
+      height: calc(100vh - 70px);
+    }
+    
+    .chat-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      backdrop-filter: blur(5px);
+      background: rgba(30, 30, 46, 0.7);
+      border-radius: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+    
+    .message {
+      max-width: 70%;
+      padding: 15px;
+      border-radius: 18px;
+      animation: fadeIn 0.3s ease-out;
+      position: relative;
+      line-height: 1.5;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .bot-message {
+      background: linear-gradient(145deg, var(--primary), #9932CC);
+      color: white;
+      align-self: flex-start;
+      border-bottom-left-radius: 5px;
+      margin-left: 60px;
+    }
+    
+    .user-message {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--light);
+      align-self: flex-end;
+      border-bottom-right-radius: 5px;
+      text-align: right;
+    }
+    
+    .bot-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--highlight);
+      position: absolute;
+      left: -60px;
+      bottom: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+    
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .input-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      padding: 5px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      margin-bottom: 20px;
+    }
+    
+    .input-field {
+      flex: 1;
+      background: transparent;
+      border: none;
+      padding: 15px 20px;
+      color: var(--light);
+      font-size: 16px;
+      outline: none;
+    }
+    
+    .input-field::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .mic-btn, .send-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s;
+      border: none;
+      color: white;
+    }
+    
+    .mic-btn {
+      background: linear-gradient(145deg, #FF1493, var(--secondary));
+      margin-right: 5px;
+    }
+    
+    .send-btn {
+      background: linear-gradient(145deg, var(--primary), #6A5ACD);
+    }
+    
+    .mic-btn:hover, .send-btn:hover {
+      transform: scale(1.05);
+    }
+    
+    .mic-btn:active, .send-btn:active {
+      transform: scale(0.95);
+    }
+    
+    .listening {
+      animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(255, 105, 180, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0); }
+    }
+    
+    .features {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .status-indicator {
+      position: absolute;
+      bottom: 80px;
+      right: 30px;
+      background: rgba(0, 0, 0, 0.5);
+      color: var(--light);
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+    }
+    
+    .status-indicator.active {
+      display: flex;
+      animation: slideIn 0.3s forwards;
+    }
+    
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--success);
+    }
+    
+    .pulse-dot {
+      animation: pulse-dot 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+    }
+    
+    @keyframes pulse-dot {
+      0% { transform: scale(0.8); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(0.8); }
+    }
+    
+    .avatar-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .canvas-container {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 0;
+    }
+    
+    #canvas {
+      width: 100%;
+      height: 100%;
+    }
+    
+    @media (max-width: 768px) {
+      .messages {
+        padding: 15px;
+      }
+      
+      .message {
+        max-width: 85%;
+        padding: 12px;
+      }
+      
+      .header h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <div class="logo-icon">S</div>
+      <h1>Savin</h1>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+    
+    <div class="chat-container">
+      <div class="messages" id="messages">
+        <div class="message bot-message">
+          <div class="S">
+            <img src="/api/placeholder/50/50" alt="Bot Avatar" class="avatar-img">
+          </div>
+          Hi there! I'm Savin, your personal AI assistant. I can help you with opening apps, setting reminders, taking notes, and much more. How can I assist you today?
+        </div>
+      </div>
+      
+      <div class="input-container">
+        <button class="mic-btn" id="mic-btn">🎤</button>
+        <input type="text" class="input-field" id="user-input" placeholder="Type a message or press the mic to speak...">
+        <button class="send-btn" id="send-btn">➤</button>
+      </div>
+      
+      <div class="status-indicator" id="status">
+        <div class="status-dot pulse-dot"></div>
+        <span id="status-text">Listening...</span>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Initialize 3D scene
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('canvas'), alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    
+    // Create ambient light
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+    scene.add(ambientLight);
+    
+    // Add directional light
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+    directionalLight.position.set(0, 10, 10);
+    scene.add(directionalLight);
+    
+    // Create a group for the character
+    const characterGroup = new THREE.Group();
+    scene.add(characterGroup);
+    
+    // Create head (sphere)
+    const headGeometry = new THREE.SphereGeometry(1.2, 32, 32);
+    const headMaterial = new THREE.MeshPhongMaterial({ 
+      color: 0xFFB6C1,
+      shininess: 30
+    });
+    const head = new THREE.Mesh(headGeometry, headMaterial);
+    characterGroup.add(head);
+    
+    // Create eyes
+    const eyeGeometry = new THREE.SphereGeometry(0.2, 32, 32);
+    const eyeMaterial = new THREE.MeshPhongMaterial({ color: 0x000000 });
+    
+    const leftEye = new THREE.Mesh(eyeGeometry, eyeMaterial);
+    leftEye.position.set(-0.4, 0.2, 1);
+    characterGroup.add(leftEye);
+    
+    const rightEye = new THREE.Mesh(eyeGeometry, eyeMaterial);
+    rightEye.position.set(0.4, 0.2, 1);
+    characterGroup.add(rightEye);
+    
+    // Create mouth
+    const mouthGeometry = new THREE.TorusGeometry(0.3, 0.05, 16, 32, Math.PI);
+    const mouthMaterial = new THREE.MeshPhongMaterial({ color: 0xFF1493 });
+    const mouth = new THREE.Mesh(mouthGeometry, mouthMaterial);
+    mouth.position.z = 1;
+    mouth.position.y = -0.4;
+    mouth.rotation.x = Math.PI / 2;
+    characterGroup.add(mouth);
+    
+    // Create hair
+    const hairGeometry = new THREE.ConeGeometry(1.3, 1.5, 32);
+    const hairMaterial = new THREE.MeshPhongMaterial({ color: 0x8A2BE2 });
+    const hair = new THREE.Mesh(hairGeometry, hairMaterial);
+    hair.position.y = 1.2;
+    hair.rotation.x = Math.PI;
+    characterGroup.add(hair);
+    
+    // Create decorative elements (ears/earrings)
+    const earGeometry = new THREE.SphereGeometry(0.2, 32, 32);
+    const earMaterial = new THREE.MeshPhongMaterial({ color: 0xFFB6C1 });
+    
+    const leftEar = new THREE.Mesh(earGeometry, earMaterial);
+    leftEar.position.set(-1.2, 0, 0);
+    characterGroup.add(leftEar);
+    
+    const rightEar = new THREE.Mesh(earGeometry, earMaterial);
+    rightEar.position.set(1.2, 0, 0);
+    characterGroup.add(rightEar);
+    
+    // Create earrings
+    const earringGeometry = new THREE.TorusGeometry(0.1, 0.03, 16, 32);
+    const earringMaterial = new THREE.MeshPhongMaterial({ color: 0xFFD700 });
+    
+    const leftEarring = new THREE.Mesh(earringGeometry, earringMaterial);
+    leftEarring.position.set(-1.2, -0.3, 0);
+    leftEarring.rotation.x = Math.PI / 2;
+    characterGroup.add(leftEarring);
+    
+    const rightEarring = new THREE.Mesh(earringGeometry, earringMaterial);
+    rightEarring.position.set(1.2, -0.3, 0);
+    rightEarring.rotation.x = Math.PI / 2;
+    characterGroup.add(rightEarring);
+    
+    // Create particles
+    const particlesGeometry = new THREE.BufferGeometry();
+    const particleCount = 100;
+    
+    const positions = new Float32Array(particleCount * 3);
+    const colors = new Float32Array(particleCount * 3);
+    
+    for (let i = 0; i < particleCount; i++) {
+      const i3 = i * 3;
+      // Positions
+      positions[i3] = (Math.random() - 0.5) * 15;
+      positions[i3 + 1] = (Math.random() - 0.5) * 15;
+      positions[i3 + 2] = (Math.random() - 0.5) * 15;
+      
+      // Colors
+      colors[i3] = Math.random();
+      colors[i3 + 1] = Math.random();
+      colors[i3 + 2] = Math.random();
+    }
+    
+    particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    
+    const particlesMaterial = new THREE.PointsMaterial({
+      size: 0.1,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.8
+    });
+    
+    const particles = new THREE.Points(particlesGeometry, particlesMaterial);
+    scene.add(particles);
+    
+    // Position camera
+    camera.position.z = 5;
+    
+    // Animation loop
+    function animate() {
+      requestAnimationFrame(animate);
+      
+      // Rotate character slightly
+      characterGroup.rotation.y += 0.005;
+      
+      // Make character bob up and down
+      characterGroup.position.y = Math.sin(Date.now() * 0.001) * 0.2;
+      
+      // Rotate particles
+      particles.rotation.y += 0.001;
+      particles.rotation.x += 0.0005;
+      
+      renderer.render(scene, camera);
+    }
+    
+    animate();
+    
+    window.addEventListener('resize', () => {
+      const newWidth = window.innerWidth;
+      const newHeight = window.innerHeight;
+      
+      camera.aspect = newWidth / newHeight;
+      camera.updateProjectionMatrix();
+      
+      renderer.setSize(newWidth, newHeight);
+    });
+    
+    // Chat functionality
+    const messagesContainer = document.getElementById('messages');
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-btn');
+    const micButton = document.getElementById('mic-btn');
+    const statusIndicator = document.getElementById('status');
+    const statusText = document.getElementById('status-text');
+    const featurePills = document.querySelectorAll('.feature-pill');
+    
+    // Replace the addMessage function in your HTML file with this improved version
+  function addMessage(text, isUser = false) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message');
+  
+    if (isUser) {
+      messageDiv.classList.add('user-message');
+      messageDiv.textContent = text;
+    } else {
+      messageDiv.classList.add('bot-message');
+      const avatarDiv = document.createElement('div');
+      avatarDiv.classList.add('bot-avatar');
+    
+      const avatarImg = document.createElement('img');
+      avatarImg.src = '/api/placeholder/50/50';
+      avatarImg.alt = 'Bot Avatar';
+      avatarImg.classList.add('avatar-img');
+    
+      avatarDiv.appendChild(avatarImg);
+      messageDiv.appendChild(avatarDiv);
+      messageDiv.textContent = text;
+    
+    // Animate character when bot speaks
+      gsap.to(mouth.scale, {
+        x: 1.2, y: 1.5, z: 1.2,
+        duration: 0.2,
+        repeat: 3,
+        yoyo: true
+      });
+    }
+  
+    messagesContainer.appendChild(messageDiv);
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+  
+  // Text-to-speech for bot messages (if supported)
+    if (!isUser && window.speechSynthesis) {
+      speakText(text);
+    }
+  }
+
+// Add this new function to handle speaking text reliably
+  let speechQueue = [];
+  let isSpeaking = false;
+
+  function speakText(text) {
+  // Cancel any ongoing speech
+    window.speechSynthesis.cancel();
+  
+  // Split long text into sentences to prevent cutting off
+    const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+  
+  // Queue up all sentences
+    sentences.forEach(sentence => {
+      speechQueue.push(sentence.trim());
+    });
+  
+  // Start speaking if not already speaking
+    if (!isSpeaking) {
+      processSpeechQueue();
+    }
+  }
+
+  function processSpeechQueue() {
+    if (speechQueue.length === 0) {
+      isSpeaking = false;
+      return;
+    }
+  
+    isSpeaking = true;
+    const nextSentence = speechQueue.shift();
+    const speech = new SpeechSynthesisUtterance(nextSentence);
+    speech.rate = 1.0;
+    speech.pitch = 1.2;
+    speech.volume = 1;
+  
+    // Load voices and select a female voice
+    const voices = window.speechSynthesis.getVoices();
+    
+    // If voices are available, select a female voice
+    if (voices.length > 0) {
+      const femaleVoice = voices.find(voice => 
+        voice.name.toLowerCase().includes('female') || 
+        voice.name.toLowerCase().includes('zira') ||
+        voice.name.toLowerCase().includes('samantha')
+      );
+      
+      if (femaleVoice) {
+        speech.voice = femaleVoice;
+      }
+    } else {
+    // If voices aren't loaded yet, wait and try again
+      window.speechSynthesis.onvoiceschanged = function() {
+        const newVoices = window.speechSynthesis.getVoices();
+        const femaleVoice = newVoices.find(voice => 
+          voice.name.toLowerCase().includes('female') || 
+          voice.name.toLowerCase().includes('zira') ||
+          voice.name.toLowerCase().includes('samantha')
+        );
+        
+        if (femaleVoice) {
+          speech.voice = femaleVoice;
+        }
+      };
+    }
+  
+    speech.onend = function() {
+      // Continue with the next sentence
+      processSpeechQueue();
+    };
+    
+    speech.onerror = function() {
+      // Continue even if there's an error
+      processSpeechQueue();
+    };
+    
+    window.speechSynthesis.speak(speech);
+  }
+
+  // Make sure voices are loaded early
+  if (window.speechSynthesis) {
+    // Force load voices
+    speechSynthesis.getVoices();
+    
+    // Setup event listener for when voices are loaded
+    speechSynthesis.onvoiceschanged = function() {
+      speechSynthesis.getVoices();
+    };
+  }
+    // Handle user input
+    function handleUserInput() {
+      const text = userInput.value.trim();
+      if (text === '') return;
+      
+      addMessage(text, true);
+      userInput.value = '';
+      
+      // Animate thinking
+      statusIndicator.classList.add('active');
+      statusText.textContent = 'Thinking...';
+      
+      // Send the request to the backend
+    // Send the request to the backend
+    fetch('http://localhost:5000/api/process_command', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query: text }) // Use the user's input
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log("Response from backend:", data);
+      addMessage(data.response); // Display the response from the backend
+      statusIndicator.classList.remove('active'); // Hide the status indicator
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      statusIndicator.classList.remove('active');
+      addMessage("I'm having trouble connecting right now. Please try again later.");
+    });
+    
+    // Event listeners
+    sendButton.addEventListener('click', handleUserInput);
+    
+    userInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        handleUserInput();
+      }
+    });
+    }
+    
+    // Voice recognition
+    let recognition;
+    if (window.webkitSpeechRecognition || window.SpeechRecognition) {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      recognition = new SpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      
+      recognition.onstart = () => {
+        micButton.classList.add('listening');
+        statusIndicator.classList.add('active');
+        statusText.textContent = 'Listening...';
+      };
+      
+      recognition.onend = () => {
+        micButton.classList.remove('listening');
+        statusIndicator.classList.remove('active');
+      };
+      
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        userInput.value = transcript;
+        setTimeout(handleUserInput, 500);
+      };
+      
+      micButton.addEventListener('click', () => {
+        if (micButton.classList.contains('listening')) {
+          recognition.stop();
+        } else {
+          recognition.start();
+        }
+      });
+    } else {
+      micButton.addEventListener('click', () => {
+        alert('Sorry, speech recognition is not supported in your browser.');
+      });
+    }
+
+    // Character mood updates
+    function updateCharacterMood(mood) {
+      switch(mood) {
+        case 'happy':
+          gsap.to(mouth.position, { y: -0.3, duration: 0.5 });
+          gsap.to(mouth.scale, { x: 1.2, y: 1, z: 1, duration: 0.5 });
+          break;
+        case 'thinking':
+          gsap.to(mouth.position, { y: -0.4, duration: 0.5 });
+          gsap.to(mouth.scale, { x: 0.8, y: 1.2, z: 1, duration: 0.5 });
+          gsap.to(head.rotation, { 
+            z: 0.1, 
+            duration: 0.5, 
+            onComplete: () => {
+              gsap.to(head.rotation, { z: -0.1, duration: 0.5, yoyo: true, repeat: 3 });
+            }
+          });
+          break;
+        case 'neutral':
+        default:
+          gsap.to(mouth.position, { y: -0.4, duration: 0.5 });
+          gsap.to(mouth.scale, { x: 1, y: 1, z: 1, duration: 0.5 });
+          gsap.to(head.rotation, { z: 0, duration: 0.5 });
+          break;
+      }
+    }
+    
+    // Set initial mood
+    updateCharacterMood('happy');
+    
+    // Make character look at cursor
+    document.addEventListener('mousemove', (e) => {
+      const mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+      const mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+      
+      gsap.to(characterGroup.rotation, {
+        x: mouseY * 0.2,
+        y: mouseX * 0.3,
+        duration: 0.5
+      });
+      
+      gsap.to(leftEye.position, {
+        x: -0.4 + mouseX * 0.05,
+        z: 1 + mouseY * 0.05,
+        duration: 0.2
+      });
+      
+      gsap.to(rightEye.position, {
+        x: 0.4 + mouseX * 0.05,
+        z: 1 + mouseY * 0.05,
+        duration: 0.2
+      });
+    });
+  </script>
+</body>
+</html>

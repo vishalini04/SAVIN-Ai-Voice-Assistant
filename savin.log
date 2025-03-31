@@ -1,0 +1,611 @@
+2025-03-29 07:56:08,735 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:56:08,742 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:56:08,782 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 07:56:08,782 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 07:56:08,784 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 07:56:09,092 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:56:09,095 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:56:09,109 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 07:56:09,112 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 07:57:52,581 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:57:52,584 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:57:52,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 07:57:52,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 07:57:52,610 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 07:57:52,861 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:57:52,864 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:57:52,877 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 07:57:52,879 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 07:58:21,362 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:58:21,365 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:58:21,386 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 07:58:21,386 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 07:58:21,388 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 07:58:21,644 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:58:21,647 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:58:21,660 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 07:58:21,662 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 07:58:53,785 - werkzeug - INFO -  * Detected change in 'C:\\Users\\svish\\OneDrive\\Desktop\\savin_trying_with_claude\\app.py', reloading
+2025-03-29 07:58:53,831 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 07:58:54,203 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:58:54,209 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:58:54,236 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 07:58:54,239 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 07:59:11,634 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:59:11,637 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:59:11,662 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 07:59:11,663 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 07:59:11,664 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 07:59:11,928 - Reminder - INFO - Reminder checker thread started
+2025-03-29 07:59:11,931 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 07:59:11,943 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 07:59:11,946 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 08:00:11,680 - Reminder - INFO - Reminder checker thread started
+2025-03-29 08:00:11,683 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 08:00:11,710 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 08:00:11,710 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 08:00:11,711 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 08:00:11,963 - Reminder - INFO - Reminder checker thread started
+2025-03-29 08:00:11,966 - SavinApp - INFO - Starting Savin Assistant application
+2025-03-29 08:00:11,979 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 08:00:11,981 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 08:00:16,213 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:16] "GET / HTTP/1.1" 200 -
+2025-03-29 08:00:16,250 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:16] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:00:25,076 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:25] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:25,327 - SavinApp - INFO - Received query: hello hello
+2025-03-29 08:00:25,327 - Savin - INFO - Processing command: hello hello
+2025-03-29 08:00:25,327 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:25] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:25,336 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:25] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:00:36,985 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:36] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:37,301 - SavinApp - INFO - Received query: open calculator
+2025-03-29 08:00:37,301 - OpenApps - INFO - Attempting to open: calculator
+2025-03-29 08:00:37,424 - OpenApps - INFO - Executing command: start calc.exe
+2025-03-29 08:00:37,432 - OpenApps - INFO - Successfully opened: calculator
+2025-03-29 08:00:37,432 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:37] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:37,449 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:37] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:00:46,705 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:46] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:47,014 - SavinApp - INFO - Received query: open YouTube
+2025-03-29 08:00:47,014 - OpenApps - INFO - Attempting to open: youtube
+2025-03-29 08:00:47,014 - OpenApps - INFO - Executing command: start https://www.youtube.com/
+2025-03-29 08:00:47,025 - OpenApps - INFO - Successfully opened: youtube
+2025-03-29 08:00:47,025 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:47] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:00:47,032 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:00:47] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:01:01,549 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:01] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:01:01,856 - SavinApp - INFO - Received query: what is your name
+2025-03-29 08:01:01,856 - Savin - INFO - Processing command: what is your name
+2025-03-29 08:01:01,857 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:01] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:01:01,862 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:01] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:01:48,281 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:48] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:01:48,594 - SavinApp - INFO - Received query: set reminder
+2025-03-29 08:01:48,596 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:48] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:01:48,609 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:01:48] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:16:08,101 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:16:08] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:16:08,350 - SavinApp - INFO - Received query: take notes
+2025-03-29 08:16:08,351 - NotesTaker - INFO - Created notes directory: C:\Users\svish\Savin Notes
+2025-03-29 08:16:08,351 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-29_08-16-08.txt
+2025-03-29 08:16:08,536 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-29_08-16-08.txt
+2025-03-29 08:16:08,536 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:16:08] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:16:08,556 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:16:08] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:17:01,040 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:01] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:01,347 - SavinApp - INFO - Received query: open WhatsApp
+2025-03-29 08:17:01,347 - OpenApps - INFO - Attempting to open: whatsapp
+2025-03-29 08:17:01,347 - OpenApps - INFO - Executing command: start C:\Users\%USERNAME%\AppData\Local\WhatsApp\WhatsApp.exe
+2025-03-29 08:17:01,356 - OpenApps - INFO - Successfully opened: whatsapp
+2025-03-29 08:17:01,357 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:01] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:01,366 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:01] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:17:12,945 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:12] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:13,260 - SavinApp - INFO - Received query: what is your name
+2025-03-29 08:17:13,260 - Savin - INFO - Processing command: what is your name
+2025-03-29 08:17:13,260 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:13] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:13,267 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:13] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:17:29,847 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:29] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:30,157 - SavinApp - INFO - Received query: what is the time now
+2025-03-29 08:17:30,157 - Savin - INFO - Processing command: what is the time now
+2025-03-29 08:17:30,158 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:30] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:30,163 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:30] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:17:40,720 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:40] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:41,029 - SavinApp - INFO - Received query: tell me some fun facts about Bangalore
+2025-03-29 08:17:41,029 - Savin - INFO - Processing command: tell me some fun facts about Bangalore
+2025-03-29 08:17:41,029 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:41] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:41,034 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:41] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:17:56,020 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:56] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:56,329 - SavinApp - INFO - Received query: hello hello
+2025-03-29 08:17:56,330 - Savin - INFO - Processing command: hello hello
+2025-03-29 08:17:56,330 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:56] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:17:56,348 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:17:56] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:18:10,047 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:18:10] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:18:10,355 - SavinApp - INFO - Received query: search for BTS on Google
+2025-03-29 08:18:10,355 - Savin - INFO - Processing command: search for BTS on Google
+2025-03-29 08:18:10,356 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:18:10] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:18:10,362 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:18:10] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:20:05,921 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:05] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:06,168 - SavinApp - INFO - Received query: open Notepad
+2025-03-29 08:20:06,168 - OpenApps - INFO - Attempting to open: notepad
+2025-03-29 08:20:06,168 - OpenApps - INFO - Executing command: start notepad.exe
+2025-03-29 08:20:06,176 - OpenApps - INFO - Successfully opened: notepad
+2025-03-29 08:20:06,177 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:06] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:06,188 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:06] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:20:22,643 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:22] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:22,953 - SavinApp - INFO - Received query: open Paint
+2025-03-29 08:20:22,953 - OpenApps - INFO - Attempting to open: paint
+2025-03-29 08:20:22,953 - OpenApps - INFO - Executing command: start mspaint.exe
+2025-03-29 08:20:22,970 - OpenApps - INFO - Successfully opened: paint
+2025-03-29 08:20:22,970 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:22] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:22,977 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:22] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:20:35,242 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:35] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:35,556 - SavinApp - INFO - Received query: open discord
+2025-03-29 08:20:35,556 - OpenApps - INFO - Attempting to open: discord
+2025-03-29 08:20:35,556 - OpenApps - INFO - Executing command: start discord
+2025-03-29 08:20:35,563 - OpenApps - INFO - Successfully opened: discord
+2025-03-29 08:20:35,564 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:35] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:35,569 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:35] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:20:53,833 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:53] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:54,144 - SavinApp - INFO - Received query: open settings
+2025-03-29 08:20:54,144 - OpenApps - INFO - Attempting to open: settings
+2025-03-29 08:20:54,144 - OpenApps - INFO - Executing command: start ms-settings:
+2025-03-29 08:20:54,155 - OpenApps - INFO - Successfully opened: settings
+2025-03-29 08:20:54,156 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:54] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:20:54,175 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:20:54] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:21:06,698 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:06] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:07,014 - SavinApp - INFO - Received query: open terminal
+2025-03-29 08:21:07,014 - OpenApps - INFO - Attempting to open: terminal
+2025-03-29 08:21:07,014 - OpenApps - INFO - Executing command: start terminal
+2025-03-29 08:21:07,024 - OpenApps - INFO - Successfully opened: terminal
+2025-03-29 08:21:07,024 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:07] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:07,031 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:07] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:21:26,646 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:26] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:26,956 - SavinApp - INFO - Received query: open calendar
+2025-03-29 08:21:26,956 - OpenApps - INFO - Attempting to open: calendar
+2025-03-29 08:21:26,956 - OpenApps - INFO - Executing command: start outlookcal:
+2025-03-29 08:21:26,964 - OpenApps - INFO - Successfully opened: calendar
+2025-03-29 08:21:26,964 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:26] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:26,976 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:26] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:21:41,209 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:41] "GET / HTTP/1.1" 200 -
+2025-03-29 08:21:41,226 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:41] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:21:49,859 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:49] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:50,165 - SavinApp - INFO - Received query: hello hello
+2025-03-29 08:21:50,165 - Savin - INFO - Processing command: hello hello
+2025-03-29 08:21:50,165 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:50] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:21:50,171 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:21:50] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:22:02,818 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:02] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:22:03,132 - SavinApp - INFO - Received query: what is your name
+2025-03-29 08:22:03,132 - Savin - INFO - Processing command: what is your name
+2025-03-29 08:22:03,133 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:03] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:22:03,143 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:03] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:22:27,707 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:27] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:22:28,018 - SavinApp - INFO - Received query: I am sad
+2025-03-29 08:22:28,018 - Savin - INFO - Processing command: I am sad
+2025-03-29 08:22:28,018 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:28] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:22:28,028 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:22:28] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:24:19,709 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:19] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:19,983 - SavinApp - INFO - Received query: set reminder for a project day tomorrow
+2025-03-29 08:24:19,985 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:19] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:19,996 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:19] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:24:38,244 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:38] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:38,552 - SavinApp - INFO - Received query: take notes submit project report tomorrow
+2025-03-29 08:24:38,553 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-29_08-24-38.txt
+2025-03-29 08:24:38,619 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-29_08-24-38.txt
+2025-03-29 08:24:38,620 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:38] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:38,641 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:38] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:24:58,323 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:58] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:58,633 - SavinApp - INFO - Received query: Death Note 1 2 3 4 5 6 7 8 9 10
+2025-03-29 08:24:58,634 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-29_08-24-58.txt
+2025-03-29 08:24:58,690 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-29_08-24-58.txt
+2025-03-29 08:24:58,690 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:58] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:24:58,709 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:24:58] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:25:43,107 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:25:43] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:25:43,428 - SavinApp - INFO - Received query: note 547200 26842
+2025-03-29 08:25:43,429 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-29_08-25-43.txt
+2025-03-29 08:25:43,481 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-29_08-25-43.txt
+2025-03-29 08:25:43,481 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:25:43] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:25:43,492 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:25:43] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:26:05,711 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:05] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:26:06,026 - SavinApp - INFO - Received query: remind project due tomorrow
+2025-03-29 08:26:06,026 - Savin - INFO - Processing command: remind project due tomorrow
+2025-03-29 08:26:06,026 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:06] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:26:06,036 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:06] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:26:18,990 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:18] "OPTIONS /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:26:19,308 - SavinApp - INFO - Received query: set reminder project you tomorrow at 5:00 p.m.
+2025-03-29 08:26:19,308 - Reminder - ERROR - Error parsing time 'at 5:00 p.m.': invalid literal for int() with base 10: 'at 5'
+2025-03-29 08:26:19,308 - Reminder - ERROR - Could not parse time: at 5:00 p.m.
+2025-03-29 08:26:19,308 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:19] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:26:19,320 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:26:19] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:47:14,303 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 08:47:14,311 - Reminder - INFO - Reminder checker thread started
+2025-03-29 08:47:14,311 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 08:47:14,401 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 08:47:14,401 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 08:47:14,401 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 08:47:15,305 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 08:47:15,311 - Reminder - INFO - Reminder checker thread started
+2025-03-29 08:47:15,313 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 08:47:15,346 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 08:47:15,351 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 08:47:20,461 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:20] "GET / HTTP/1.1" 200 -
+2025-03-29 08:47:20,481 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:20] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:47:21,012 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 08:47:45,611 - SavinApp - INFO - Received query: hello how are you
+2025-03-29 08:47:45,611 - Savin - INFO - Processing command: hello how are you
+2025-03-29 08:47:45,611 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:45] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:47:45,873 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:45] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:47:56,461 - SavinApp - INFO - Received query: how are you how was your day
+2025-03-29 08:47:56,461 - Savin - INFO - Processing command: how are you how was your day
+2025-03-29 08:47:56,466 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:56] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:47:56,795 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:47:56] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:48:05,591 - SavinApp - INFO - Received query: open YouTube
+2025-03-29 08:48:05,591 - OpenApps - INFO - Attempting to open: youtube
+2025-03-29 08:48:05,781 - OpenApps - INFO - Executing command: start https://www.youtube.com/
+2025-03-29 08:48:05,793 - OpenApps - INFO - Successfully opened: youtube
+2025-03-29 08:48:05,793 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:48:05] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:48:06,104 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:48:06] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:48:19,731 - SavinApp - INFO - Received query: what is BTS
+2025-03-29 08:48:19,731 - Savin - INFO - Processing command: what is BTS
+2025-03-29 08:48:19,731 - OllamaChat - INFO - Sending query to Ollama: what is bts...
+2025-03-29 08:48:59,909 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:48:59] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:49:00,239 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:49:00] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 08:49:25,121 - SavinApp - INFO - Received query: what is the time now
+2025-03-29 08:49:25,121 - Savin - INFO - Processing command: what is the time now
+2025-03-29 08:49:25,121 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:49:25] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 08:49:25,431 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:49:25] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:54:56,361 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 10:54:56,369 - Reminder - INFO - Reminder checker thread started
+2025-03-29 10:54:56,378 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 10:54:56,435 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 10:54:56,435 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:54:56,443 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 10:54:57,396 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 10:54:57,403 - Reminder - INFO - Reminder checker thread started
+2025-03-29 10:54:57,411 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 10:54:57,436 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 10:54:57,443 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 10:54:59,393 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:54:59] "GET / HTTP/1.1" 200 -
+2025-03-29 10:54:59,417 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:54:59] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:54:59,643 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:54:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 10:55:40,207 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:55:40] "GET / HTTP/1.1" 200 -
+2025-03-29 10:55:40,223 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:55:40] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:57:27,535 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:27] "GET / HTTP/1.1" 200 -
+2025-03-29 10:57:27,551 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:27] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:57:34,142 - SavinApp - INFO - Received query: hello hello
+2025-03-29 10:57:34,142 - Savin - INFO - Processing command: hello hello
+2025-03-29 10:57:34,142 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:34] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 10:57:34,461 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:34] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:57:58,412 - SavinApp - INFO - Received query: open calculatot
+2025-03-29 10:57:58,412 - OpenApps - INFO - Attempting to open: calculatot
+2025-03-29 10:57:58,527 - OpenApps - INFO - Executing command: start calculatot
+2025-03-29 10:57:58,545 - OpenApps - INFO - Successfully opened: calculatot
+2025-03-29 10:57:58,545 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:58] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 10:57:58,872 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:57:58] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:58:08,995 - SavinApp - INFO - Received query: open calculator
+2025-03-29 10:58:08,995 - OpenApps - INFO - Attempting to open: calculator
+2025-03-29 10:58:09,002 - OpenApps - INFO - Executing command: start calc.exe
+2025-03-29 10:58:09,011 - OpenApps - INFO - Successfully opened: calculator
+2025-03-29 10:58:09,011 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:58:09] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 10:58:09,425 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:58:09] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:58:31,585 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 10:58:31,585 - Reminder - INFO - Reminder checker thread started
+2025-03-29 10:58:31,593 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 10:58:31,658 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 10:58:31,666 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:58:31,666 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 10:58:32,939 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 10:58:32,944 - Reminder - INFO - Reminder checker thread started
+2025-03-29 10:58:32,952 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 10:58:32,981 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 10:58:32,985 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 10:58:36,431 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:58:36] "GET / HTTP/1.1" 200 -
+2025-03-29 10:58:36,447 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:58:36] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 10:58:46,672 - SavinApp - INFO - Received query: what is BTS
+2025-03-29 10:58:46,672 - Savin - INFO - Processing command: what is BTS
+2025-03-29 10:58:46,672 - OllamaChat - INFO - Sending query to Ollama: what is bts...
+2025-03-29 10:59:27,868 - SavinApp - INFO - Received query: I am sad
+2025-03-29 10:59:27,868 - Savin - INFO - Processing command: I am sad
+2025-03-29 10:59:27,868 - OllamaChat - INFO - Sending query to Ollama: i am sad...
+2025-03-29 10:59:42,808 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:59:42] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 10:59:43,127 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 10:59:43] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 11:00:12,131 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 11:00:12] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 11:00:12,444 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 11:00:12] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:42:48,872 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 15:42:48,880 - Reminder - INFO - Reminder checker thread started
+2025-03-29 15:42:48,888 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 15:42:48,969 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 15:42:48,969 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 15:42:48,969 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 15:42:49,990 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 15:42:49,999 - Reminder - INFO - Reminder checker thread started
+2025-03-29 15:42:50,010 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 15:42:50,065 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 15:42:50,069 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 15:42:59,425 - Reminder - INFO - Notification displayed: set rem
+2025-03-29 15:43:00,314 - Reminder - INFO - Notification displayed: set rem
+2025-03-29 15:43:09,500 - Reminder - INFO - Notification displayed: set rem
+2025-03-29 15:43:10,378 - Reminder - INFO - Notification displayed: set rem
+2025-03-29 15:43:23,115 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:43:23] "GET / HTTP/1.1" 200 -
+2025-03-29 15:43:23,131 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:43:23] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:43:23,548 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:43:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 15:43:49,431 - SavinApp - INFO - Received query: hello hello
+2025-03-29 15:43:49,431 - Savin - INFO - Processing command: hello hello
+2025-03-29 15:43:49,431 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:43:49] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:43:49,702 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:43:49] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:43:57,523 - SavinApp - INFO - Received query: Warangal can you do
+2025-03-29 15:43:57,523 - Savin - INFO - Processing command: Warangal can you do
+2025-03-29 15:43:57,523 - OllamaChat - INFO - Sending query to Ollama: warangal can you do...
+2025-03-29 15:44:21,307 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:44:21] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:44:21,631 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:44:21] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:44:38,306 - SavinApp - INFO - Received query: have conversation with me
+2025-03-29 15:44:38,306 - Savin - INFO - Processing command: have conversation with me
+2025-03-29 15:44:38,306 - OllamaChat - INFO - Sending query to Ollama: have conversation with me...
+2025-03-29 15:44:51,605 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:44:51] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:44:51,928 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:44:51] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:45:12,492 - SavinApp - INFO - Received query: open Chrome
+2025-03-29 15:45:12,492 - OpenApps - INFO - Attempting to open: chrome
+2025-03-29 15:45:12,492 - OpenApps - INFO - Executing command: start C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-03-29 15:45:12,501 - OpenApps - INFO - Successfully opened: chrome
+2025-03-29 15:45:12,501 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:45:12] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:45:12,831 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:45:12] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:45:23,653 - SavinApp - INFO - Received query: note 72000 26842
+2025-03-29 15:45:23,653 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-29_15-45-23.txt
+2025-03-29 15:45:23,889 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-29_15-45-23.txt
+2025-03-29 15:45:23,889 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:45:23] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:45:24,206 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:45:24] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:46:05,554 - SavinApp - INFO - Received query: remind me project due 4:00 p.m. 29 March 2025
+2025-03-29 15:46:05,554 - Reminder - ERROR - Error parsing time 'ind me project due 4:00 p.m. 29 march 2025': invalid literal for int() with base 10: 'ind me project due 4'
+2025-03-29 15:46:05,554 - Reminder - ERROR - Could not parse time: ind me project due 4:00 p.m. 29 march 2025
+2025-03-29 15:46:05,554 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:05] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:46:05,881 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:05] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:46:19,174 - SavinApp - INFO - Received query: remind me project you 29 March 2025 4:00 p.m.
+2025-03-29 15:46:19,174 - Reminder - ERROR - Error parsing time 'ind me project you 29 march 2025 4:00 p.m.': invalid literal for int() with base 10: 'ind me project you 29 march 2025 4'
+2025-03-29 15:46:19,174 - Reminder - ERROR - Could not parse time: ind me project you 29 march 2025 4:00 p.m.
+2025-03-29 15:46:19,174 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:19] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:46:19,492 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:19] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:46:30,164 - SavinApp - INFO - Received query: how should I set a reminder with you
+2025-03-29 15:46:30,164 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:30] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:46:30,477 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:46:30] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:50:26,190 - SavinApp - INFO - Received query: hello 7
+2025-03-29 15:50:26,190 - Savin - INFO - Processing command: hello 7
+2025-03-29 15:50:26,190 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:26] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:50:26,440 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:26] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:50:34,095 - SavinApp - INFO - Received query: what is the date today
+2025-03-29 15:50:34,095 - Savin - INFO - Processing command: what is the date today
+2025-03-29 15:50:34,095 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:34] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:50:34,427 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:34] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:50:41,060 - SavinApp - INFO - Received query: what is the weather today
+2025-03-29 15:50:41,067 - Savin - INFO - Processing command: what is the weather today
+2025-03-29 15:50:41,067 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:41] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:50:41,373 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:41] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:50:51,233 - SavinApp - INFO - Received query: tell me about the weather
+2025-03-29 15:50:51,233 - Savin - INFO - Processing command: tell me about the weather
+2025-03-29 15:50:51,233 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:51] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:50:51,557 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:50:51] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:51:00,507 - SavinApp - INFO - Received query: sing a song
+2025-03-29 15:51:00,507 - Savin - INFO - Processing command: sing a song
+2025-03-29 15:51:00,507 - OllamaChat - INFO - Sending query to Ollama: sing a song...
+2025-03-29 15:51:32,863 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:51:32] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:51:33,188 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:51:33] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:56:05,978 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 15:56:05,994 - Reminder - INFO - Reminder checker thread started
+2025-03-29 15:56:05,994 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 15:56:06,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 15:56:06,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 15:56:06,043 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 15:56:06,940 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 15:56:06,948 - Reminder - INFO - Reminder checker thread started
+2025-03-29 15:56:06,948 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 15:56:06,981 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 15:56:06,989 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 15:56:27,661 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:27] "GET / HTTP/1.1" 200 -
+2025-03-29 15:56:27,677 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:27] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:56:39,734 - SavinApp - INFO - Received query: hello
+2025-03-29 15:56:39,734 - Savin - INFO - Processing command: hello
+2025-03-29 15:56:39,734 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:39] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:56:40,064 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:40] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:56:50,614 - SavinApp - INFO - Received query: hi my name is vishalini
+2025-03-29 15:56:50,614 - Savin - INFO - Processing command: hi my name is vishalini
+2025-03-29 15:56:50,622 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:50] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:56:50,963 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:56:50] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:56:58,147 - SavinApp - INFO - Received query: say my name
+2025-03-29 15:56:58,147 - Savin - INFO - Processing command: say my name
+2025-03-29 15:56:58,147 - OllamaChat - INFO - Sending query to Ollama: say my name...
+2025-03-29 15:56:58,154 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 15:57:12,516 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 829
+2025-03-29 15:57:12,517 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:12] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:57:12,841 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:12] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:57:24,230 - SavinApp - INFO - Received query: my name is not Alex
+2025-03-29 15:57:24,230 - Savin - INFO - Processing command: my name is not Alex
+2025-03-29 15:57:24,230 - OllamaChat - INFO - Sending query to Ollama: my name is not alex...
+2025-03-29 15:57:24,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 15:57:35,463 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1088
+2025-03-29 15:57:35,464 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:35] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:57:35,778 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:35] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 15:57:45,734 - SavinApp - INFO - Received query: open YouTube
+2025-03-29 15:57:45,734 - OpenApps - INFO - Attempting to open: youtube
+2025-03-29 15:57:45,888 - OpenApps - INFO - Executing command: start https://www.youtube.com/
+2025-03-29 15:57:45,898 - OpenApps - INFO - Successfully opened: youtube
+2025-03-29 15:57:45,898 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:45] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 15:57:46,210 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 15:57:46] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:46:42,844 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 16:46:42,852 - Reminder - INFO - Reminder checker thread started
+2025-03-29 16:46:42,860 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 16:46:42,908 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-29 16:46:42,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 16:46:42,908 - werkzeug - INFO -  * Restarting with stat
+2025-03-29 16:46:43,811 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-29 16:46:43,811 - Reminder - INFO - Reminder checker thread started
+2025-03-29 16:46:43,819 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-29 16:46:43,851 - werkzeug - WARNING -  * Debugger is active!
+2025-03-29 16:46:43,859 - werkzeug - INFO -  * Debugger PIN: 994-797-947
+2025-03-29 16:46:47,557 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:46:47] "GET / HTTP/1.1" 200 -
+2025-03-29 16:46:47,573 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:46:47] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:47:06,953 - SavinApp - INFO - Received query: hello
+2025-03-29 16:47:06,953 - Savin - INFO - Processing command: hello
+2025-03-29 16:47:06,953 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:06] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:47:07,286 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:07] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:47:23,442 - SavinApp - INFO - Received query: hiiii
+2025-03-29 16:47:23,442 - Savin - INFO - Processing command: hiiii
+2025-03-29 16:47:23,442 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:23] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:47:23,772 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:23] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:47:32,776 - SavinApp - INFO - Received query: open yt
+2025-03-29 16:47:32,776 - OpenApps - INFO - Attempting to open: yt
+2025-03-29 16:47:32,883 - OpenApps - INFO - Executing command: start yt
+2025-03-29 16:47:32,900 - OpenApps - INFO - Successfully opened: yt
+2025-03-29 16:47:32,900 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:32] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:47:33,224 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:33] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:47:41,483 - SavinApp - INFO - Received query: open youtube
+2025-03-29 16:47:41,483 - OpenApps - INFO - Attempting to open: youtube
+2025-03-29 16:47:41,483 - OpenApps - INFO - Executing command: start https://www.youtube.com/
+2025-03-29 16:47:41,501 - OpenApps - INFO - Successfully opened: youtube
+2025-03-29 16:47:41,501 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:41] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:47:41,818 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:41] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:47:55,384 - SavinApp - INFO - Received query: open YouTube and open calculator
+2025-03-29 16:47:55,384 - OpenApps - INFO - Attempting to open: youtube and  calculator
+2025-03-29 16:47:55,384 - OpenApps - INFO - Executing command: start youtube and  calculator
+2025-03-29 16:47:55,401 - OpenApps - INFO - Successfully opened: youtube and  calculator
+2025-03-29 16:47:55,401 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:55] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:47:55,722 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:47:55] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:48:07,101 - SavinApp - INFO - Received query: open YouTube and open calculator
+2025-03-29 16:48:07,101 - OpenApps - INFO - Attempting to open: youtube and  calculator
+2025-03-29 16:48:07,101 - OpenApps - INFO - Executing command: start youtube and  calculator
+2025-03-29 16:48:07,101 - OpenApps - INFO - Successfully opened: youtube and  calculator
+2025-03-29 16:48:07,110 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:07] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:48:07,419 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:07] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:48:15,577 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:15] "GET / HTTP/1.1" 200 -
+2025-03-29 16:48:15,898 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:15] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:48:37,585 - SavinApp - INFO - Received query: hi
+2025-03-29 16:48:37,585 - Savin - INFO - Processing command: hi
+2025-03-29 16:48:37,585 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:37] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:48:37,849 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:37] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:48:46,351 - SavinApp - INFO - Received query: who are
+2025-03-29 16:48:46,351 - Savin - INFO - Processing command: who are
+2025-03-29 16:48:46,351 - OllamaChat - INFO - Sending query to Ollama: who are...
+2025-03-29 16:48:46,355 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 16:48:51,725 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:51] "GET / HTTP/1.1" 200 -
+2025-03-29 16:48:52,101 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:48:52] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:49:02,682 - SavinApp - INFO - Received query: what is BTS
+2025-03-29 16:49:02,682 - Savin - INFO - Processing command: what is BTS
+2025-03-29 16:49:02,682 - OllamaChat - INFO - Sending query to Ollama: what is bts...
+2025-03-29 16:49:02,691 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 16:49:18,580 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1277
+2025-03-29 16:49:18,582 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:49:18] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:49:45,911 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1475
+2025-03-29 16:49:45,913 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:49:45] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:49:46,245 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:49:46] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:50:18,211 - SavinApp - INFO - Received query: tell me some fun facts about Bangalore
+2025-03-29 16:50:18,211 - Savin - INFO - Processing command: tell me some fun facts about Bangalore
+2025-03-29 16:50:18,211 - OllamaChat - INFO - Sending query to Ollama: tell me some fun facts about bangalore...
+2025-03-29 16:50:18,211 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 16:51:48,693 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-03-29 16:51:48,695 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:51:48] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:51:49,053 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:51:49] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:58:20,893 - SavinApp - INFO - Received query: hello 7 my name is vishalini tell me about the meaning of vishalini
+2025-03-29 16:58:20,893 - Savin - INFO - Processing command: hello 7 my name is vishalini tell me about the meaning of vishalini
+2025-03-29 16:58:20,893 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:58:20] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:58:21,185 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:58:21] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 16:58:32,290 - SavinApp - INFO - Received query: tell me about the meaning for the name vishalini
+2025-03-29 16:58:32,290 - Savin - INFO - Processing command: tell me about the meaning for the name vishalini
+2025-03-29 16:58:32,290 - OllamaChat - INFO - Sending query to Ollama: tell me about the meaning for the name vishalini...
+2025-03-29 16:58:32,290 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 16:59:12,510 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1602
+2025-03-29 16:59:12,511 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:59:12] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 16:59:12,839 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 16:59:12] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-29 17:00:02,330 - SavinApp - INFO - Received query: what is the full form of BTS
+2025-03-29 17:00:02,330 - Savin - INFO - Processing command: what is the full form of BTS
+2025-03-29 17:00:02,330 - OllamaChat - INFO - Sending query to Ollama: what is the full form of bts...
+2025-03-29 17:00:02,330 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-29 17:00:18,866 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1082
+2025-03-29 17:00:18,868 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 17:00:18] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-29 17:00:18,904 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 17:00:18] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:53:38,147 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-30 20:53:38,158 - Reminder - INFO - Reminder checker thread started
+2025-03-30 20:53:38,168 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-30 20:53:38,307 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-30 20:53:38,307 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 20:53:38,308 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 20:53:38,902 - Savin - INFO - Ollama chat module loaded successfully
+2025-03-30 20:53:38,907 - Reminder - INFO - Reminder checker thread started
+2025-03-30 20:53:38,911 - SavinApp - INFO - Starting Savin Assistant application on http://localhost:5000
+2025-03-30 20:53:38,951 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 20:53:38,956 - werkzeug - INFO -  * Debugger PIN: 119-412-978
+2025-03-30 20:53:47,706 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:53:47] "GET / HTTP/1.1" 200 -
+2025-03-30 20:53:47,732 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:53:47] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:53:48,086 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-30 20:53:48,634 - Reminder - INFO - Notification displayed: how should i set a rem
+2025-03-30 20:53:49,129 - Reminder - INFO - Notification displayed: how should i set a rem
+2025-03-30 20:54:26,111 - SavinApp - INFO - Received query: hello
+2025-03-30 20:54:26,112 - Savin - INFO - Processing command: hello
+2025-03-30 20:54:26,112 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:26] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:54:26,372 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:26] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:54:35,875 - SavinApp - INFO - Received query: open YouTube
+2025-03-30 20:54:35,875 - OpenApps - INFO - Attempting to open: youtube
+2025-03-30 20:54:35,875 - OpenApps - INFO - Executing command: start https://www.youtube.com/
+2025-03-30 20:54:35,885 - OpenApps - INFO - Successfully opened: youtube
+2025-03-30 20:54:35,886 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:35] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:54:36,198 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:36] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:54:46,160 - SavinApp - INFO - Received query: open calculator
+2025-03-30 20:54:46,160 - OpenApps - INFO - Attempting to open: calculator
+2025-03-30 20:54:46,162 - OpenApps - INFO - Executing command: start calc.exe
+2025-03-30 20:54:46,170 - OpenApps - INFO - Successfully opened: calculator
+2025-03-30 20:54:46,171 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:46] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:54:46,491 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:46] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:54:57,096 - SavinApp - INFO - Received query: open Notepad
+2025-03-30 20:54:57,097 - OpenApps - INFO - Attempting to open: notepad
+2025-03-30 20:54:57,097 - OpenApps - INFO - Executing command: start notepad.exe
+2025-03-30 20:54:57,105 - OpenApps - INFO - Successfully opened: notepad
+2025-03-30 20:54:57,105 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:57] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:54:57,416 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:54:57] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:55:13,053 - SavinApp - INFO - Received query: 26842
+2025-03-30 20:55:13,054 - Savin - INFO - Processing command: 26842
+2025-03-30 20:55:13,054 - OllamaChat - INFO - Sending query to Ollama: 26842...
+2025-03-30 20:55:13,057 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-30 20:55:26,960 - SavinApp - INFO - Received query: note 7200 26842
+2025-03-30 20:55:26,969 - NotesTaker - INFO - Note written to: C:\Users\svish\Savin Notes\note_2025-03-30_20-55-26.txt
+2025-03-30 20:55:27,196 - NotesTaker - INFO - Opened file: C:\Users\svish\Savin Notes\note_2025-03-30_20-55-26.txt
+2025-03-30 20:55:27,197 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:27] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:55:27,513 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:27] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:55:36,548 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1156
+2025-03-30 20:55:36,548 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:36] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:55:36,867 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:36] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:55:47,714 - SavinApp - INFO - Received query: what is the meaning of Shiva Shankar
+2025-03-30 20:55:47,714 - Savin - INFO - Processing command: what is the meaning of Shiva Shankar
+2025-03-30 20:55:47,714 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:47] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:55:48,029 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:48] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:55:59,577 - SavinApp - INFO - Received query: what is the meaning of Shiva Shankar
+2025-03-30 20:55:59,577 - Savin - INFO - Processing command: what is the meaning of Shiva Shankar
+2025-03-30 20:55:59,577 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:59] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:55:59,887 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:55:59] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:56:13,763 - SavinApp - INFO - Received query: what is the meaning of Shiva Shankar
+2025-03-30 20:56:13,763 - Savin - INFO - Processing command: what is the meaning of Shiva Shankar
+2025-03-30 20:56:13,763 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:13] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:56:14,079 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:14] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:56:22,809 - SavinApp - INFO - Received query: full form of BTS
+2025-03-30 20:56:22,809 - Savin - INFO - Processing command: full form of BTS
+2025-03-30 20:56:22,809 - OllamaChat - INFO - Sending query to Ollama: full form of bts...
+2025-03-30 20:56:22,810 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-30 20:56:33,259 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 1074
+2025-03-30 20:56:33,260 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:33] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:56:33,571 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:33] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:56:49,242 - SavinApp - INFO - Received query: meaning of Shiva Shankar
+2025-03-30 20:56:49,242 - Savin - INFO - Processing command: meaning of Shiva Shankar
+2025-03-30 20:56:49,242 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:49] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:56:49,559 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:56:49] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:57:03,018 - SavinApp - INFO - Received query: tell me some fun facts about Bangalore
+2025-03-30 20:57:03,018 - Savin - INFO - Processing command: tell me some fun facts about Bangalore
+2025-03-30 20:57:03,018 - OllamaChat - INFO - Sending query to Ollama: tell me some fun facts about bangalore...
+2025-03-30 20:57:03,019 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-03-30 20:58:26,243 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/generate HTTP/1.1" 200 None
+2025-03-30 20:58:26,244 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:58:26] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:58:26,559 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:58:26] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
+2025-03-30 20:59:54,732 - SavinApp - INFO - Received query: what song is this Tana Nana Nana
+2025-03-30 20:59:54,732 - Savin - INFO - Processing command: what song is this Tana Nana Nana
+2025-03-30 20:59:54,732 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:59:54] "POST /api/process_command HTTP/1.1" 200 -
+2025-03-30 20:59:54,989 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 20:59:54] "[33mGET /api/placeholder/50/50 HTTP/1.1[0m" 404 -
